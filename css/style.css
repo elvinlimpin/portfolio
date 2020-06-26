@@ -1,0 +1,147 @@
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #f0f0f0;
+    background-color: #694ff6;
+    background-image: linear-gradient(0deg,#f09cab,rgb(57, 54, 243)) !important;
+    min-height: 100vh;
+}
+
+div {
+    display: block;
+}
+
+h2, h2, h4, h2, h6 {
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: lighter;
+    text-align: left;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+a {
+    width:100%;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    width:100%;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:visited {
+    width:100%;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:visited {
+    width:100%;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.btn {
+    width:100%!important;
+    background-color: rgb(158, 32, 32);
+    border-radius: 3%;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    padding: 0.75em;
+    margin-bottom: 0.5em;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: transparent!important;
+    color: white;
+    border:  2px solid white;
+    font-size: 1.1em;
+}
+
+.label {
+    font-size: 0.8em;
+    margin-top: 0.4em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+}
+
+.container, .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+
+.selected {
+    border: 2px white solid;
+    border-radius: 3%;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 255, 0.20);
+}
+
+.unselected {
+    padding-top: 22px;
+}
+
+.unselected:hover {
+    border: 2px white solid;
+    border-radius: 3%;
+    padding-top: 20px;
+}
+
+.btn.featured {
+    background-color: white;
+    color: black;
+    border:  2px solid white;
+    font-size: 0.9em;
+}
+
+.btn.featured:hover {
+    font-size: 0.9em;
+    background-color: transparent;
+    color: white;
+}
+
+img {
+    text-align: center;
+    object-fit: cover;
+}
+
+.middle{
+    float: left;
+    left: 50%;
+    position: relative;
+}
+.inner{
+   position: relative;
+   left: -50%;
+   float: left;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+        display: none;
+    }
+    .main-img {
+        display: block;
+    }
+}
+
+.smol {
+    font-size: 0.5em;
+}

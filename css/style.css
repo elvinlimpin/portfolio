@@ -21,7 +21,7 @@ h4 {
 }
 
 p {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 a {
@@ -53,18 +53,18 @@ a:visited {
     letter-spacing: 0.1em;
     padding: 1em;
     margin-bottom: 0.5em;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .btn:hover {
     background-color: transparent!important;
     color: white;
     border:  2px solid white;
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .label {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-top: 0.4em;
     font-weight: 400;
     letter-spacing: 0.1em;
